@@ -33,10 +33,6 @@ in
         files = mkOption {
           description = "Config files to write to the cfg directory";
           type = types.attrsOf types.lines;
-          /* fileType "TF2 cfg directory"
-            # Append overrides subdirectory if applicable
-            ("${homeDirectory}/${cfg.basePath}/tf/cfg/" +
-            (if cfg.cfg.useOverrides then "overrides/" else "")); */
         };
       };
     };

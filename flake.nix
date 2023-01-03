@@ -13,6 +13,8 @@
       in
       {
         packages = import ./pkgs pkgs;
-        nixosModules.default = import ./modules/tf2.nix pkgs;
+        nixosModules = {
+          tf2 = import ./modules/tf2.nix pkgs;
+        };
       });
 }
