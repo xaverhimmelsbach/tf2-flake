@@ -12,8 +12,6 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       {
-        packages = import ./pkgs { } pkgs;
-
-        overlays.default = final: prev: (import ./pkgs) final prev;
+        packages = import ./pkgs pkgs;
       });
 }
