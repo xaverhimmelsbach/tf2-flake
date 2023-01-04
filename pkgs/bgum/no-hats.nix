@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
 
   filename = "no_hats_bgum.vpk";
   src = pkgs.fetchurl {
-    url = builtins.trace "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}" "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}";
+    url = "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}";
     sha256 = "sha256-YgC7xg+WJdPj38r4Hzm8ST32Za5GIh9ELdtiCtVXMa0=";
   };
 
