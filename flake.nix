@@ -14,7 +14,7 @@
       {
         packages = import ./pkgs pkgs;
         nixosModules = {
-          tf2 = import ./modules/tf2.nix pkgs;
+          tf2 = import ./modules/tf2.nix;
         };
       });
 }
