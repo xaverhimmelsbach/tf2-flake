@@ -3,6 +3,7 @@ let
   version = "42e207896543578e70d8cde09c309519f0361027";
 in
 {
+  nhcustom2 = import ./nhcustom2.nix pkgs;
   no-hats = import ./no-hats.nix pkgs version;
   no-bugged-misc = import ./no-bugged-misc.nix pkgs version;
   no-hats-creatorstf = import ./no-hats-creatorstf.nix pkgs version;
