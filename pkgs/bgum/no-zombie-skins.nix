@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
 
   filename = "no_zombie_skins.vpk";
   src = pkgs.fetchurl {
-    url = "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}";
+    url = "https://github.com/Fedora31/no-hats-bgum/releases/download/${version}/${filename}";
     sha256 = "sha256-0CmxiedonO+0NEe0pBG4Z7TTaC2RycWTDHaDLSuwuls=";
   };
 

@@ -1,6 +1,6 @@
 pkgs:
 let
-  version = "42e207896543578e70d8cde09c309519f0361027";
+  version = "v2.0";
 in
 {
   nhcustom2 = import ./nhcustom2.nix pkgs;

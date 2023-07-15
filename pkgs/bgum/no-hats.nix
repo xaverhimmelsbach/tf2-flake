@@ -5,8 +5,8 @@ stdenv.mkDerivation rec {
 
   filename = "no_hats_bgum.vpk";
   src = pkgs.fetchurl {
-    url = "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}";
-    sha256 = "sha256-YgC7xg+WJdPj38r4Hzm8ST32Za5GIh9ELdtiCtVXMa0=";
+    url = "https://github.com/Fedora31/no-hats-bgum/releases/download/${version}/${filename}";
+    sha256 = "sha256-6usHrckmqkZHBE6O0jpQmORPQxrEwR1bEAvaWRHzors=";
   };
 
   buildCommand = ''

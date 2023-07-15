@@ -5,7 +5,7 @@ stdenv.mkDerivation rec {
 
   filename = "no_botkiller.vpk";
   src = pkgs.fetchurl {
-    url = "https://github.com/Fedora31/no-hats-bgum/raw/${version}/${filename}";
+    url = "https://github.com/Fedora31/no-hats-bgum/releases/download/${version}/${filename}";
     sha256 = "sha256-gkxKzOB1lH32lFt++rG/9+EZZCGVwZ3RU1AuSRmCqCE=";
   };
 
