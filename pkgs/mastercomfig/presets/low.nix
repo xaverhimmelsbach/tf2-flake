@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-low-preset.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-WREA0U8LH4MOsyhrCosUkXlZZSXtcX1Z1WyRIzn9tM4=";
+    sha256 = "sha256-8K4JoE++skKP87CkINm7jkz+OSUZnOHKeRm+2YOZvKU=";
   };
 
   buildCommand = ''
