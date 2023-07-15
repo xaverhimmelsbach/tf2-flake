@@ -12,4 +12,5 @@ in
   no-skins = import ./no-skins.nix pkgs version;
   no-botkiller = import ./no-botkiller.nix pkgs version;
   no-zombie-skins = import ./no-zombie-skins.nix pkgs version;
+  no-action-items = import ./no-action-items.nix pkgs version;
 }
