@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-ultra-preset.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-cwiyLMiHbLftYazt8Yv27Cj9LK7Gs+1s3EYbjfJ62Jc=";
+    sha256 = "sha256-VfSFxRuZtYLuNrtX6X7BEMtL6wMbFyela7zbmZurlCw=";
   };
 
   buildCommand = ''

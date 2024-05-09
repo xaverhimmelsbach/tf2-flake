@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-no-tutorial-addon.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-/LOicAYaPdeZMCf+CzbmURKMYEwRCU/LXCX2vxDYonM=";
+    sha256 = "sha256-sA3kN2iNe5bwh+954ef+sV0hjMdMZLs6IPgsHDi5oXE=";
   };
 
   buildCommand = ''

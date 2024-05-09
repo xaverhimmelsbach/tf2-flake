@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-disable-pyroland-addon.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-3yKXnTVwIwcsZn+x0Qz1I2hGkS67bIrHea8PExR+G/U=";
+    sha256 = "sha256-cEFaXSXwlHwm7BnkSLmG4vAPYhL1O0XwNG0UpTnDFY8=";
   };
 
   buildCommand = ''

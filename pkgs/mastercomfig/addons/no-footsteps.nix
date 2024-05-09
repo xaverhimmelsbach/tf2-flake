@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-no-footsteps-addon.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-8gz3NXloXTjnLc/THlOuwtB/pUStmn/5DjFiNVpktRk=";
+    sha256 = "sha256-7WIWwV2PnwRM79I7vOdfRggQi/NUS+6GHkAAyo8ap2I=";
   };
 
   buildCommand = ''

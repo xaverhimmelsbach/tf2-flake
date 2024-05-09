@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-medium-preset.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-zw1I+s7vysPnFqqG7DoNhPv6r/68dpXjwXFZqXUG64I=";
+    sha256 = "sha256-yEcxPkU/0vJn7vy3n2ViYdTCBV3O9gX57fMQQZYlm3I=";
   };
 
   buildCommand = ''

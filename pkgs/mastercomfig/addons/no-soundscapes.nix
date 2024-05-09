@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-no-soundscapes-addon.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-a1//MSddZM9Luj4qIDS9woT5adTLFRYDr9KtoD/1i5A=";
+    sha256 = "sha256-Qp7QW9zZXpX7zrK+Fmpf428lU7Mc86sMn6+5Syhnxz0=";
   };
 
   buildCommand = ''

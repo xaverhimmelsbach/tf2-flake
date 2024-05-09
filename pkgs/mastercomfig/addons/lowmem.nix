@@ -6,7 +6,7 @@ stdenv.mkDerivation rec {
   filename = "mastercomfig-lowmem-addon.vpk";
   src = pkgs.fetchurl {
     url = "https://github.com/mastercomfig/mastercomfig/releases/download/${version}/${filename}";
-    sha256 = "sha256-6zSvvTqpEIso7SeRt0jwz+P8cHA4cSGF7ek1zqUnwxw=";
+    sha256 = "sha256-21iyJ4Zg+p5qES05FP2fMO7/p3YrrIkNp2GM2oEjT4E=";
   };
 
   buildCommand = ''
